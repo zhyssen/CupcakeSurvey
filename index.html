@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cupcake Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html>
+  <div class="container">
+        <header>
+<h1 id="title"> Cupcake Survey </h1>
+
+<p id="description"> We want to know what you love about our cupcakes. </p>
+      </header>
+      <body>
+<form id="survey-form">
+  <label for="name" id="name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" required </input>
+  <br>
+  <br>
+  <label for="email" id="email-label"> Email </label>
+  <input id="email" type="email" name="email" placeholder="enter your email address" required </input>
+  <br>
+  <br>
+  <label for="number" id="number-label"> Age </label>
+  <input id="number" type="number" name="number" placeholder="Age" min="0" max="100" required </input>
+  <br>
+  <br>
+  <label for="dropdown" id="flavor"> Favorite Cupcake Flavor </label>
+  <select id="dropdown">
+    <option value="chocolate">Chocolate</option>
+    <option value="vanilla">Vanilla</option>
+    <option value="red velvet">Red Velvet</option>
+    <option value="carrot">Carrot</option>
+  </select>
+  <br>
+  <br>
+  <label for="foodAllergies" id="allergies">Food Allergies?</label>
+  <br>
+  <input id="foodAllergies" type="radio" id="yes" name="allergies" value="yes">
+  <label for="foodAllergies"> Yes </label>
+  <br>
+  <input id="foodAllergies" type="radio" id="no" name="allergies" value="no">
+  <label for="foodAllergies"> No </label>
+  <br>
+  <input id="foodAllergies" type="radio" id="unsure" name="allergies" value="unsure">
+  <label for="foodAllergies"> Unsure </label>
+  <br>
+  <br>
+  <br>
+  <label for="toppings" id="toppings">What types of toppings to you like? (Check all that apply.)</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="toppings" value="nuts">
+  <label for="checkbox"> Nuts </label>
+  <input id="checkbox" type="checkbox" name="toppings" value="fruit">
+  <label for="checkbox"> Fruit </label>
+  <input id="checkbox" type="checkbox" name="toppings" value="sprinkles">
+  <label for="checkbox"> Sprinkles </label>
+  <input id="checkbox" type="checkbox" name="toppings" value="chocolateChips">
+  <label for="checkbox">Chocolate Chips</label>
+  <input id="checkbox" type="checkbox" name="toppings" value="caramelSauce">
+    <label for="checkbox">Caramel Sauce</label>
+ <input id="checkbox" type="checkbox" name="toppings" value="candy">
+    <label for="checkbox">Candy</label>
+  <br>
+  <br>
+  <label for="textArea" id="textArea"> Additional Comments </label>
+  <br>
+  <textarea id="textArea" name="comments" rows="6" cols="50">
+    
+  </textarea>
+  <br>
+  <br>
+  <input id="submit" type="submit" value="Submit">
+  
+</form>
+      </body>
+    </div>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
